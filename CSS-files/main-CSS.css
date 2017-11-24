@@ -7,11 +7,9 @@ li {
 	display: inline-block;
 }
 
-#noise-background {
-	opacity: 0.1;
-}
 
-#header-bar {
-	background: #BB634D;
-	color: white;
+body {
+	background-size: 200px;
+	background: url(../Images/background.png);
+
 }
