@@ -1,6 +1,7 @@
 #header-bar {
 	text-align: center;
 	float: none;
+	color: white;
 }
 
 li {
@@ -10,6 +11,9 @@ li {
 
 body {
 	background-size: 200px;
-	background: url(../Images/background.png);
+	background: url(../Images/grey-with-noise.png);
+}
 
+p {
+	color: white;
 }
