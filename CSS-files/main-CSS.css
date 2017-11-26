@@ -33,6 +33,7 @@ p {
 	color: white;
 	margin: auto;
 	font-size: 20px;
+	text-align: center;
 }
 
 .wd {
@@ -54,9 +55,9 @@ th {
 	font-weight: lighter;
 }
 
-td {line-height: 20px; font-size: 20px;}
+td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 
-td:hover {
+.hover:hover {
 	font-size: 40px;
 	transition:;
 }
@@ -67,4 +68,9 @@ td:hover {
 	text-align: center;
 	font-size: 20px;
 	font-weight: lighter;
+	color: white;
+}
+
+#grpChkbox li {
+	margin: 15px 40px 20px 40px;
 }
