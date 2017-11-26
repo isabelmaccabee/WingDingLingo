@@ -20,6 +20,7 @@ p {
 
 .navbar {
 	margin: 20px;
+	font-weight: lighter;
 }
 
 #content {
@@ -27,4 +28,35 @@ p {
 	border: solid #a04833;
 	border-width: 1.5px;
 	padding: 10px;
+}
+
+.table {
+	color: white;
+	margin: auto;
+	font-size: 20px;
+}
+
+.wd {
+	font-family: wingdings;
+	font-weight: lighter;
+}
+
+.wd2 {
+	font-family: "Wingdings 2";
+	font-weight: lighter;
+}
+
+.wd3 {
+	font-family: "Wingdings 3";
+	font-weight: lighter;
+}
+th {
+	font-weight: lighter;
+}
+
+td {line-height: 20px; font-size: 20px;}
+
+td:hover {
+	font-size: 30px;
+	transition:;
 }
