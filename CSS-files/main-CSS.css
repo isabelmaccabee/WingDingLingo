@@ -21,3 +21,10 @@ p {
 .navbar {
 	margin: 20px;
 }
+
+#content {
+	margin:20px;
+	border: solid #a04833;
+	border-width: 1.5px;
+	padding: 10px;
+}
