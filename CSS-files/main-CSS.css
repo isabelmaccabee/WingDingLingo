@@ -23,12 +23,6 @@ p {
 	background: -webkit-linear-gradient(left,rgba(93, 109, 126, 1) 60%, white);
 }
 
-#content {
-	margin:20px;
-	border-width: 1.5px;
-	padding: 10px;
-}
-
 .table {
 	color: white;
 	margin: auto;
@@ -61,8 +55,8 @@ td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 	font-size: 40px;
 }
 
-#content {
-	background: -webkit-radial-gradient(circle, rgba(93, 109, 126, 0.5), rgba(93, 109, 126, 1), rgba(93, 109, 126, 1));
+.content {
+	background: -webkit-radial-gradient(circle, rgba(93, 109, 126, 0.7), rgba(93, 109, 126, 1), rgba(93, 109, 126, 1));
 	margin: 0px 0px 20px 0px;
 	text-align: center;
 	font-size: 20px;
@@ -70,6 +64,13 @@ td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 	color: white;
 	background-attachment: fixed;
 }
+/*
+.content {
+	margin:20px;
+	border-width: 1.5px;
+	padding: 10px;
+}*/
+
 
 #grpChkbox li {
 	margin: 15px 40px 20px 40px;
