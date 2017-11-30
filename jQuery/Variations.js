@@ -11,4 +11,11 @@ $(document).ready(function() {
         var index = $(colToHide).index();
         $tbl.find('tr :nth-child(' + (index + 1) + ')').toggle();
     });
+
+    $("#original").change(function() {
+    	var originaltext=$(this).val();
+    	alert("\"" + "originaltext" + "\"" + " " + "WILL BE TRANSLATED");
+    	$("#wdt").val(originaltext);
+    });
 });
+
