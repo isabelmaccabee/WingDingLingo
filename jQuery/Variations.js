@@ -14,8 +14,17 @@ $(document).ready(function() {
 
     $("#original").change(function() {
     	var originaltext=$(this).val();
-    	alert("\"" + "originaltext" + "\"" + " " + "WILL BE TRANSLATED");
+    	alert("\"" + originaltext + "\"" + " " + "will be translated now!");
     	$("#wdt").val(originaltext);
     });
+
+    $("#input-font").change(function () {
+  		console.log(this.value);
+  		$(".output-text").css("color", "red");
+
+   		//document.getElementById("output-text").style.fontFamily = this.value;//
+    });
+
+
 });
 

@@ -45,10 +45,18 @@
 	  </div>
 	</nav>
 	<div class="content">
-	<p>Translator</p>
+	<h1>Translator</h1>
 	<p>Translate any text into Wingdings with ease!</p>
+
+	<select id="input-font" class="wdt";">
+	      <option value="Wingdings" selected ="selected">Wingdings</option>
+	      <option value="Wingdings 2">Wingdings 2</option>
+	      <option value="Windings 3">Wingdings 2</option>
+	</select>
+
 	<input type="text" id="original" placeholder="Insert your text to be translated here" class="translator_box">
 	<input type="submit">
-	<input type="text" id="wdt" placeholder=" " class="translator_box" style="font-family: Wingdings">
+	<!-- <input type="text" id="wdt" placeholder=" " class="translator_box" style="font-family: Wingdings">  -->
+	<input type="text" id="wdt" placeholder=" " class="translator_box output-text">
 	</div>
 </body>
