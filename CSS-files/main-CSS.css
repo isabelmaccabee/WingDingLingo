@@ -11,7 +11,7 @@ li {
 
 body {
 	background-size: 200px;
-	background: url(../Images/grey-with-noise.png);
+	background-color: #D4E2E6;
 }
 
 p {
@@ -19,7 +19,6 @@ p {
 }
 
 .navbar {
-	margin: 0px 0px 20px 0px;
 	font-weight: lighter;
 }
 
@@ -63,14 +62,37 @@ td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 }
 
 #content {
-	background: url(../Images/rust.png);
-	margin: 0px 70px 20px 70px;
+	background: -webkit-radial-gradient(circle, rgba(93, 109, 126, 0.8), rgba(93, 109, 126, 1), rgba(93, 109, 126, 1));
+	margin: 20px 0px 20px 0px;
 	text-align: center;
 	font-size: 20px;
 	font-weight: lighter;
 	color: white;
+	background-attachment: fixed;
 }
 
 #grpChkbox li {
 	margin: 15px 40px 20px 40px;
+}
+
+.fa {
+	padding: 7px;
+	font-size: 30px;
+	text-align: center;
+	width: 32px;
+	background-color: rgb(93, 109, 126);
+	border-radius: 50%;
+}
+.fa-facebook {
+	background-color: #3B5998;
+}
+
+.fa-twitter {
+	background-color: #55ACEE;
+}
+.fa-instagram {
+	background-color: #4c68d7;
+}
+.fa-linkedin {
+	background-color: #007bb5;
 }
