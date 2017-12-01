@@ -19,7 +19,7 @@ p {
 
 .navbar {
 	font-weight: lighter;
-	border-bottom: 20px solid white;
+	border-bottom: 3px solid white;
 	background: -webkit-linear-gradient(left,rgba(93, 109, 126, 1) 60%, white);
 }
 
@@ -55,7 +55,7 @@ td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 	font-size: 40px;
 }
 
-.content {
+body {
 	background: -webkit-radial-gradient(circle, rgba(93, 109, 126, 0.7), rgba(93, 109, 126, 1), rgba(93, 109, 126, 0.9));
 	margin: 0px 0px 20px 0px;
 	text-align: center;
@@ -63,6 +63,10 @@ td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 	font-weight: lighter;
 	color: white;
 	background-attachment: fixed;
+}
+
+.content {
+	margin: 40px;
 }
 /*
 .content {

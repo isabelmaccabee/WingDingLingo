@@ -20,7 +20,18 @@ $(document).ready(function() {
 
     $("#input-font").change(function () {
   		console.log(this.value);
-  		$(".output-text").css("color", "red");
+
+        if(this.value == "Wingdings") {
+  		    $(".output-text").css("font-family", this.value);
+        }
+
+        if(this.value == "Wingdings 2") {
+            $(".output-text").css("color", "Blue");
+        }
+
+        if(this.value == "Wingdings 3") {
+            $(".output-text").css("color", "Red");
+        }
 
    		//document.getElementById("output-text").style.fontFamily = this.value;//
     });
