@@ -56,7 +56,7 @@ td {line-height: 20px; font-size: 20px; font-weight: lighter;}
 }
 
 body {
-	background: -webkit-radial-gradient(circle, rgba(93, 109, 126, 0.7), rgba(93, 109, 126, 1), rgba(93, 109, 126, 0.9));
+	background: -webkit-radial-gradient(circle, rgba(93, 109, 126, 0.75), rgba(93, 109, 126, 1), rgba(93, 109, 126, 0.9));
 	margin: 0px 0px 20px 0px;
 	text-align: center;
 	font-size: 20px;
@@ -100,4 +100,22 @@ body {
 }
 .fa-linkedin {
 	background-color: #007bb5;
+}
+
+.pagebody {
+	text-align: left;
+	margin: 30px 120px;
+}
+
+h4 {
+	/*font-weight: lighter;*/
+	letter-spacing: 1.5px;
+}
+.readmore {
+	height: 30px;
+	overflow: hidden;
+}
+.readmore:hover {
+	height: 250px;
+	overflow-wrap: show;
 }
