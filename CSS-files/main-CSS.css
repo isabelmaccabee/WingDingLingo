@@ -111,11 +111,16 @@ h4 {
 	/*font-weight: lighter;*/
 	letter-spacing: 1.5px;
 }
-.readmore {
+/*.readmore {
+	margin: 10px 0px;
 	height: 30px;
 	overflow: hidden;
+	position: relative;
 }
 .readmore:hover {
-	height: 250px;
-	overflow-wrap: show;
+	height: 220px;*/
+
+.readmore {
+	position: hidden;
 }
+

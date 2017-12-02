@@ -35,7 +35,7 @@ $(document).ready(function() {
 
    		//document.getElementById("output-text").style.fontFamily = this.value;//
     });
-
+    //$('.collapse').collapse();//
 
 });
 
