@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 	<link rel="stylesheet" type="text/css" href="../CSS-files/main-CSS.css">
 	<script type="text/javascript" src="../jQuery/Variations.js"></script>
+	
 	<title>WingdingLingo Translator</title>
 
 </head>
@@ -21,7 +22,7 @@
 	  <div class="collapse navbar-collapse" id="navbarText">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="main.html">Home<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="main.html">Home</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="about-history.html">About/History</a>
@@ -30,14 +31,13 @@
 	        <a class="nav-link" href="variations.html">Variations</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Translator</a>
+	        <a class="nav-link" href="#">Translator<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="quiz.html">Quiz</a>
 	      </li>	      
 	    </ul>
 	    <span class="navbar-text" style="color: #5D6D7E;">
-	      TRANSLATOR
 	     <a href="https://en-gb.facebook.com/login/" class="fa fa-facebook"></a>
 		<a href="https://twitter.com/login" class="fa fa-twitter"></a>
 		<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
@@ -50,9 +50,9 @@
 	<p>Translate any text into Wingdings with ease!</p>
 
 	<div class="translations">
-		<input type="text" id="original" placeholder="Insert your text to be translated here" class="translator_box">
-		<input type="submit">
-		<input type="text" id="wdt" placeholder="Your translation will appear here" class="translator_box output-text">
+		<input type="text" id="original" placeholder="Insert your text to be translated here" class="translator_box col-md-3">
+		<input type="submit" class="col-md-3">
+		<input type="text" id="wdt" placeholder="Your translation will appear here" class="translator_box output-text col-md-2">
 	</div>
 	<select id="input-font" class="wdt";">
 	      <option value="Wingdings" selected ="selected">Purple</option>
