@@ -16,13 +16,15 @@ $(document).ready(function() {
     	var originaltext=$(this).val();
     	alert("\"" + originaltext + "\"" + " " + "will be translated now!");
     	$("#wdt").val(originaltext);
+        $("#wdt").css("font-family", "Wingdings");
     });
 
     $("#input-font").change(function () {
   		console.log(this.value);
 
         if(this.value == "Wingdings") {
-  		    $(".output-text").css("font-family", this.value);
+  		    /*$(".output-text").css("font-family", this.value);*/
+            $(".output-text").css("color", "Purple");
         }
 
         if(this.value == "Wingdings 2") {
@@ -32,9 +34,6 @@ $(document).ready(function() {
         if(this.value == "Wingdings 3") {
             $(".output-text").css("color", "Red");
         }
-
-   		//document.getElementById("output-text").style.fontFamily = this.value;//
     });
-
 });
 
