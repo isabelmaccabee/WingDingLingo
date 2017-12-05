@@ -23,6 +23,6 @@ $(document).ready(function() {
               console.log(this.value);
              $(".output-text").css("color", this.value);
     });
-
+    $('.modal').modal('show');
 });
 

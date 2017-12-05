@@ -1,4 +1,4 @@
-.alert {
+/*.alert {
     display: inline-block;
     vertical-align: middle;
     padding: 6px;
@@ -7,13 +7,13 @@
     
 
 
-}
-
+}*/
+/*
 .closebtn {
     display: block;
     color: inherit;
 
-}
+}*/
 /*
     color: inherit;
     margin-right: 15px;
@@ -26,7 +26,7 @@
     transition: 0.3s;
 }
 */
-
+/*
 .closebtn:hover {
     color: black;
-}
+}*/
