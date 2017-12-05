@@ -19,21 +19,10 @@ $(document).ready(function() {
         $("#wdt").css("font-family", "Wingdings");
     });
 
-    $("#input-font").change(function () {
-  		console.log(this.value);
-
-        if(this.value == "Wingdings") {
-  		    /*$(".output-text").css("font-family", this.value);*/
-            $(".output-text").css("color", "Purple");
-        }
-
-        if(this.value == "Wingdings 2") {
-            $(".output-text").css("color", "Blue");
-        }
-
-        if(this.value == "Wingdings 3") {
-            $(".output-text").css("color", "Red");
-        }
+     $("#input-font").change(function () {
+              console.log(this.value);
+             $(".output-text").css("color", this.value);
     });
+
 });
 
