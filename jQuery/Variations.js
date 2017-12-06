@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     $("#original").change(function() {
     	var originaltext=$(this).val();
-    	alert("\"" + originaltext + "\"" + " " + "will be translated now!");
+    	/*alert("\"" + originaltext + "\"" + " " + "will be translated now!");*/
     	$("#wdt").val(originaltext);
         $("#wdt").css("font-family", "Wingdings");
     });

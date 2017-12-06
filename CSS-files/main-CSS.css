@@ -66,9 +66,6 @@ body {
 	background-attachment: fixed;
 }
 
-.content {
-	padding-top: 70px;
-}
 
 #grpChkbox li {
 	margin: 15px 40px 20px 40px;
@@ -97,7 +94,7 @@ body {
 }
 
 .pagebody {
-	text-align: left;
+	text-align: center;
 	margin: 30px 120px;
 }
 
@@ -138,10 +135,12 @@ h4 {
 	font-size: 15px;
 }*/
 
-#Welcome {
+.pagetitle {
 	background: white;
-	height: 400px;
+	height: flex;
 	color: rgba(93, 109, 126, 1);
+	text-align: center;
+	padding: 20px;
 }
 .box-for-border {
 	/*background: -webkit-linear-gradient(left,rgba(93, 109, 126, 1) 60%, white);*/
@@ -152,20 +151,32 @@ h4 {
 }
 
 .welcome-stop {
-	font-size: 30px;
-	margin: 0px 300px 0px 400;
+	font-size: 1.2em;
+	/*margin: 0px 300px 0px 400;*/
 }
 
-#welcome-to {
+/*#welcome-to {
 	text-align: left;
 }
 
 #one-stop-site {
 	text-align: right;
-}
-#welcome .content h1 {
+}*/
+.pagetitle h1 {
 	font-size: 70px;
 }
-#welcome .content .btn {
+/*#welcome .content .btn {
 	margin: 20px 0px;
+}*/
+.row {
+	max-width: ;
+}
+
+.content .pagetitle {
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.blog-container {
+	text-align: left;
 }
