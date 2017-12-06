@@ -21,6 +21,7 @@ p {
 	font-weight: lighter;
 	border-bottom: 3px solid white;
 	background: -webkit-linear-gradient(left,rgba(93, 109, 126, 1) 60%, white);
+	/*margin-bottom: 20px;*/
 }
 
 .table {
@@ -66,7 +67,7 @@ body {
 }
 
 .content {
-	margin: 40px;
+	padding-top: 70px;
 }
 
 #grpChkbox li {
@@ -126,10 +127,45 @@ h4 {
 }
 .close:hover {
 	font-weight: bold;
+	color: rgb(93, 109, 126) ;
 }
 #popupheading {
 	font-weight: bold;
 }
-#popupquote {
+/*#popupquote {
 	font-style: italic;
+	font-weight: lighter;
+	font-size: 15px;
+}*/
+
+#Welcome {
+	background: white;
+	height: 400px;
+	color: rgba(93, 109, 126, 1);
+}
+.box-for-border {
+	/*background: -webkit-linear-gradient(left,rgba(93, 109, 126, 1) 60%, white);*/
+	height: 75px;
+}
+.welcometext {
+	color: rgba(93, 109, 126, 1);
+}
+
+.welcome-stop {
+	font-size: 30px;
+	margin: 0px 300px 0px 400;
+}
+
+#welcome-to {
+	text-align: left;
+}
+
+#one-stop-site {
+	text-align: right;
+}
+#welcome .content h1 {
+	font-size: 70px;
+}
+#welcome .content .btn {
+	margin: 20px 0px;
 }
