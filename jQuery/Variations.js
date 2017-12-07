@@ -12,11 +12,14 @@ $(document).ready(function() {
         $tbl.find('tr :nth-child(' + (index + 1) + ')').toggle();
     });
 
+    $("#customisetranslation").hide();
+
     $("#original").change(function() {
     	var originaltext=$(this).val();
     	/*alert("\"" + originaltext + "\"" + " " + "will be translated now!");*/
     	$("#wdt").val(originaltext);
         $("#wdt").css("font-family", "Wingdings");
+        $("#customisetranslation").show();
     });
 
      $("#input-font").change(function () {
@@ -24,5 +27,7 @@ $(document).ready(function() {
              $(".output-text").css("color", this.value);
     });
     $('.modal').modal('show');
+
+
 });
 

@@ -33,9 +33,9 @@
 	      <li class="nav-item active">
 	        <a class="nav-link" href="index.html">Home</a>
 	      </li>
-	      <li class="nav-item">
+	      <!--<li class="nav-item">
 	        <a class="nav-link" href="about-history.html">About/History</a>
-	      </li>
+	      </li>-->
 	      <li class="nav-item">
 	        <a class="nav-link" href="variations.html">Variations</a>
 	      </li>
@@ -59,16 +59,19 @@
 	<p>Translate any text into Wingdings with ease!</p>
 
 	<div class="translations">
-		<input type="text" id="original" placeholder="Insert your text to be translated here" class="translator_box col-md-3">
+		<input type="text" id="original" placeholder="Insert your text to be translated here" class="translator_box col-md-4">
 		<input type="submit" class="col-md-1">
 		<input type="text" id="wdt" placeholder="Your translation will appear here" class="translator_box output-text col-md-3">
 	</div>
-	<select id="input-font" class="wdt";">
-	      <option value="Black" selected ="selected">Black</option>
-	      <option value="Blue">Blue</option>
-	      <option value="Red">Red</option>
-	      <option value="Green">Green</option>
-	</select>
+	<div id="customisetranslation">
+		<p>Maybe you want to customise your translation a bit? <br />Change the color? Have a go here!</p>
+		<select id="input-font" class="wdt customisetranslation";">
+	      	<option value="Black" selected ="selected">Black</option>
+	     	 <option value="Blue">Blue</option>
+	     	 <option value="Red">Red</option>
+	     	 <option value="Green">Green</option>
+		</select>
+	</div>
 	</div>
 	</div>
 </body>

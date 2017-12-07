@@ -180,3 +180,9 @@ h4 {
 .blog-container {
 	text-align: left;
 }
+#customisetranslation {
+	background: #4c5767;
+	padding: 20px;
+	max-width: 500px;
+	margin: auto;
+}
