@@ -186,3 +186,7 @@ h4 {
 	max-width: 500px;
 	margin: auto;
 }
+.pagetitle p {
+	color: rgba(93, 109, 126, 1);
+	margin: 0px 300px;
+}
